@@ -1,0 +1,257 @@
+/*header and NAVBAR*/
+
+header {
+    background-color: #22223B;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    opacity: 0.6;
+    padding: 10px
+}
+
+header h1 {
+    color: #9A8C98;
+    font-family: 'Gotu', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: #9A8C98;
+    text-decoration: none;
+    margin: 0 10px 20px 0;
+}
+
+header nav ul li a:hover {
+    color: #bdbdbd;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+
+/*END OF HEADER AND NAV BAR/*
+
+
+ 
+
+  /*IMAGES AND FLEXBOX 1 */
+
+.journey-flex {
+    display: flex;
+    flex-direction: row;
+    margin: auto0;
+}
+
+.journey-flex img {
+    width: 100%;
+    padding: 10px;
+}
+
+.journey-flex>.item {
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+/*END OF IMAGES AND FLEXBOX 1 */
+
+
+/* GENERAL BODY CSS */
+
+body {
+    background-color: #F2E9E4;
+}
+
+hr {
+    text-decoration-line: bold;
+}
+
+h2 {
+    color: #4A4E69;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #4A4E69;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+ul {
+    color: #22223B;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* PROJECTS ALBUM AND FLEXBOX */
+
+.projects-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto0;
+}
+
+.projects-flex>.item {
+    opacity: 60%;
+    align-self: center;
+    flex: 1;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.project-flex img {
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+}
+
+
+/* CONTACT AND LINKS TO MY WORK OUTSIDE */
+
+.contact p {
+    color: #15616d;
+    text-align: justify;
+    text-decoration: none;
+    font-family: 'Sen', sans-serif;
+}
+
+.contact ul {
+    color: #15616d;
+    list-style-type: none;
+    text-align: justify;
+    font-family: 'Sen', sans-serif;
+}
+
+.email {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Sen', sans-serif;
+}
+
+.email a {
+    color: #22223B;
+}
+
+.email a:hover {
+    color: #15616d;
+}
+
+.email a:visited {
+    color: #0b132b;
+}
+
+ol {
+    color: #22223B;
+    font-family: 'Sen', sans-serif;
+}
+
+ol a {
+    color: #22223B;
+    font-family: 'Sen', sans-serif;
+}
+
+a:hover {
+    color: #15616d;
+}
+
+
+/*a:visited{
+    color: #0b132b;
+  }*/
+
+
+/*END OF LINKS*/
+
+
+/*SUBMISSION FORMS*/
+
+.forms {
+    width: 200px;
+    padding: 20px;
+    margin: 80px 0;
+    font-family: 'Sen', sans-serif;
+}
+
+input[type=text] {
+    padding: 10px;
+    s margin: 10px 0;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+textarea {
+    height: 4.75rem;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+
+/*END OF SUBMISSION FORMS*/
+
+
+/*Footer and VERY BOTTOM OF PAGE*/
+
+h3 {
+    color: #9A8C98;
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+}
+
+footer {
+    align-content: center;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*MOBILE RESPONSIVENESS*/
+
+@media all and (max-width: 800px) {
+    header {
+        padding: 0 30px;
+    }
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+    }
+    header nav {
+        margin-top: 8px;
+    }
+    header nav ul li a:hover {
+        color: #bdbdbd;
+    }
+    .journey-flex {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .project-flex {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    img {
+        width: 100%;
+    }
+}
