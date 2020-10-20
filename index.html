@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Responsive Portfolio</title>
+    <title>Madison's Responsive Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Roboto:wght@300&family=Sen&display=swap" rel="stylesheet">
 </head>
@@ -16,10 +16,10 @@
         <h1> My name is Madison, nice to meet you! </h1>
         <nav>
             <ul id="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -30,7 +30,7 @@
         <section>
             <div class="group journey-flex">
                 <div class="item">
-                    <h2>The Journey</h2>
+                    <h2 id="home">The Journey</h2>
                     <p> I am located in Dallas, TX and while I am new to coding I am excited to learn everything <b>Thinkful</b> has to offer. Here is a little bit more about me: </p>
                     <ul>
                         <li>Interested in remote work</li>
@@ -55,14 +55,18 @@
 
         <article>
             <hr>
-            <h2>About Me</h2>
+            <h2 id="about">About Me</h2>
             <p>I've recently started my journey into Software Engineering, and I am extremely passionate about learning. I love a good challenge, and problem solving is my strongest asset. I can't wait to work on projects that will make a difference. </p>
 
             <p>I have a Bachelor's degree in Sociology from Texas A&M University. In my free time I love to bake Macarons, and good food is my happy place! I have two cats and two dogs, and they live a spoiled life. I like to pretend I have a green thumb,
                 and I watch far too many crime T.V shows. </p>
+
+            <p> My career goals include working with a dream team of developers to grow alongside with. I know I would fit best on a team that emphasizes hard work, learning code, and creates a fun environment!
+            </p>
+            <p> What I can Provide as services: <b>Aesthetic and Responsive Website Design</b>,<b> Web Application Prototype Development</b>,<b> E-Commerce Consulting Expertise</b></p>
             <hr>
 
-            <h2>Projects</h2>
+            <h2 id="portfolio">Projects</h2>
             <h2>Coming Soon!</h2>
             <section class="projects">
                 <div class="group projects-flex">
@@ -82,7 +86,7 @@
 
 
 
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
         <div class="contact">
             <p>Here is what I can do for you:</p>
             <ul>
@@ -134,7 +138,9 @@
     </h3>
 
     <footer>
-        <p>madison.slansky@gmail.com</p>
+        <a href="mailto:email">
+            <p>madison.slansky@gmail.com</p>
+        </a>
     </footer>
 
 
