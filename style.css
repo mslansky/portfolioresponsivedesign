@@ -1,5 +1,9 @@
 /*header and NAVBAR*/
 
+img {
+    width: 100%;
+}
+
 header {
     background-color: #22223B;
     height: 100%;
@@ -7,7 +11,7 @@ header {
     margin-bottom: 40px;
     text-align: center;
     opacity: 0.6;
-    padding: 10px
+    padding: 0 30px;
 }
 
 header h1 {
@@ -15,11 +19,14 @@ header h1 {
     font-family: 'Gotu', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sen', sans-serif;
+    margin: 14px 0;
+    padding-top: 0;
 }
 
 header nav {
     display: flex;
     justify-content: center;
+    margin-top: 8px;
 }
 
 header nav ul {
@@ -45,15 +52,12 @@ header nav ul li:last-child a {
 
 /*END OF HEADER AND NAV BAR/*
 
-
- 
-
-  /*IMAGES AND FLEXBOX 1 */
+/*IMAGES AND FLEXBOX 1 */
 
 .journey-flex {
     display: flex;
-    flex-direction: row;
-    margin: auto0;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .journey-flex img {
@@ -192,7 +196,7 @@ a:hover {
 
 input[type=text] {
     padding: 10px;
-    s margin: 10px 0;
+    margin: 10px 0;
     border: 0;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
 }
@@ -224,34 +228,36 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
+.flex-column-align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-/*MOBILE RESPONSIVENESS*/
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-@media all and (max-width: 800px) {
+
+/*DESKTOP RESPONSIVENESS*/
+
+@media all and (min-width: 800px) {
     header {
-        padding: 0 30px;
+        padding: 10px
     }
     header h1 {
-        margin: 14px 0;
+        margin: 0;
         padding-top: 0;
     }
     header nav {
-        margin-top: 8px;
-    }
-    header nav ul li a:hover {
-        color: #bdbdbd;
+        margin-top: 0;
     }
     .journey-flex {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-    }
-    .project-flex {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-    }
-    img {
-        width: 100%;
+        flex-direction: row;
+        margin: auto0;
     }
 }
