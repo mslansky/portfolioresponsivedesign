@@ -145,6 +145,7 @@ ul {
 }
 
 .email {
+    content-align: center;
     text-align: center;
     text-decoration: none;
     font-family: 'Sen', sans-serif;
@@ -152,6 +153,7 @@ ul {
 
 .email a {
     color: #22223B;
+   
 }
 
 .email a:hover {
@@ -220,13 +222,10 @@ h3 {
     color: #9A8C98;
     text-align: center;
     font-family: 'Sen', sans-serif;
+
 }
 
-footer {
-    align-content: center;
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .flex-column-align-center {
     display: flex;
@@ -258,6 +257,6 @@ footer {
     }
     .journey-flex {
         flex-direction: row;
-        margin: auto0;
+        margin: auto;
     }
 }
