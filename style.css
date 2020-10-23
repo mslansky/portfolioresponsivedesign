@@ -11,7 +11,7 @@ header {
     margin-bottom: 40px;
     text-align: center;
     opacity: 0.6;
-    padding: 0 30px;
+    
 }
 
 header h1 {
@@ -50,7 +50,9 @@ header nav ul li:last-child a {
 }
 
 
-/*END OF HEADER AND NAV BAR/*
+/*END OF HEADER AND NAV BAR */
+
+
 
 /*IMAGES AND FLEXBOX 1 */
 
